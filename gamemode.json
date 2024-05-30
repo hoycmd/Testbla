@@ -1,1 +1,52 @@
-
+{
+  "Name": "<b><i><color=Blue>ПОКУПКИ</a>от ЛУНАТИКА!!!</i></b>",
+  "Description": "<b><i>Копите очки и покупайте все оружия!!!</i></b>",
+  "StartClientVersion": 510,
+  "MapFilter": {
+    "IsBlank": false,
+    "HasParcourEnd": false
+  },
+  "MapLists": [
+    {
+      "MapListId": 117,
+      "Name": "ПОКУПКИ ОТ <color=Line>ЛУНАТИКА!!!</a>"
+    }
+  ],
+  "Parameters": {
+    "Bool": [
+      {
+        "Name": "Damage",
+        "DisplayName": "GmParams/Damage"
+      },
+      {
+        "Name": "PartialDesruction",
+        "DisplayName": "GmParams/PartialDesruction"
+      },
+      {
+        "Name": "LoosenBlocks",
+        "DisplayName": "GmParams/LoosenBlocks"
+      },
+      {
+        "Name": "BlueHasNothing",
+        "DisplayName": "GmParams/BlueHasNothing"
+      },
+      {
+        "Name": "FloodFill",
+        "DisplayName": "GmParams/FloodFill"
+      },
+      {
+        "Name": "FillQuad",
+        "DisplayName": "GmParams/FillQuad"
+      },
+      {
+        "Name": "RemoveQuad",
+        "DisplayName": "GmParams/RemoveQuad"
+      },
+      {
+        "Name": "Fly",
+        "DisplayName": "GmParams/Fly",
+        "Default": true
+      }
+    ]
+  }
+}
